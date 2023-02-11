@@ -4,9 +4,46 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <div>
-    Technologies
-  </div>
+  <Section id='tect'>
+    <SectionDivider />
+    <br />
+    <SectionTitle>Technologies</SectionTitle>
+    <SectionText>
+      Here are the technologies that I'm familiar with.
+    </SectionText>
+    <List>
+      <ListItem>
+        <DiReact size='3rem' />
+        <ListContainer>
+          <ListTitle>Front-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiReact size='3rem' />
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Node.js, SQL, and MongoDB
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiReact size='3rem' />
+        <ListContainer>
+          <ListTitle>Miscellaneous</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            React.js
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+  </Section>
 );
 
 export default Technologies;
